@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">JetPackCompose Basics</string>
     <string name="title_activity_modifiers">ModifiersActivity</string>
+    <string name="title_activity_image_card">ImageCardActivity</string>
 </resources>
