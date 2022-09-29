@@ -35,7 +35,9 @@ class ModifiersActivity : ComponentActivity() {
                     .padding(10.dp)
                     ){
 
-                Text(text = "Hello", Modifier.clickable {})
+                Text(text = "Hello", Modifier.clickable {
+                    Toast.makeText(this@ModifiersActivity,"Click",Toast.LENGTH_SHORT).show()
+                })
                 Spacer(modifier = Modifier.height(50.dp))
                 Text(text = "World")
             }
