@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetPackComposeBasics">
 
+
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
         <activity
-            android:name=".TextStyleActivity"
+            android:name=".StateActivity"
             android:exported="true"
             android:label="@string/title_activity_text_style"
             android:theme="@style/Theme.JetPackComposeBasics">
@@ -21,10 +25,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
         </activity>
+        <activity
+            android:name=".TextStyleActivity"
+            android:exported="true"
+            android:label="@string/title_activity_text_style"
+            android:theme="@style/Theme.JetPackComposeBasics"/>
         <activity
             android:name=".ModifiersActivity"
             android:exported="true"
