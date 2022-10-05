@@ -15,7 +15,7 @@
             android:name="android.app.lib_name"
             android:value="" />
         <activity
-            android:name=".EffectHandlersActivity"
+            android:name=".AnimationsActivity"
             android:exported="true"
             android:label="@string/title_activity_text_style"
             android:theme="@style/Theme.JetPackComposeBasics">
@@ -26,6 +26,12 @@
             </intent-filter>
 
         </activity>
+
+        <activity
+            android:name=".EffectHandlersActivity"
+            android:exported="true"
+            android:label="@string/title_activity_text_style"
+            android:theme="@style/Theme.JetPackComposeBasics"/>
         <activity
             android:name=".LearnConstraintLayoutActivity"
             android:exported="true"
